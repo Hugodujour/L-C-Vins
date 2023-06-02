@@ -501,6 +501,8 @@ section {
 
 .section-bg {
   background-color: #f4f9fc;
+  background-image: url('../img/inclined-blc.png');
+  background-repeat: no-repeat;
 }
 
 .section-title {
@@ -581,12 +583,14 @@ section {
   }
 }
 
+
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center no-repeat;
-  background-size: cover;
+  background-color: #FFFFFF;
+  background-image: url('../img/inclined.png');
   padding: 60px 0;
   position: relative;
 }
@@ -598,7 +602,6 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.75);
   z-index: 9;
 }
 
@@ -608,7 +611,8 @@ section {
 }
 
 .about .content {
-  padding: 30px 30px 30px 0;
+  padding: 30px;
+  background-color: white;
 }
 
 .about .content h3 {
@@ -753,7 +757,7 @@ section {
 }
 
 .services .card:hover .card-body {
-  border-color: #fdc134;
+  border-color: #28305D;
 }
 
 .services .card:hover .card-body .card-title a {
@@ -1117,7 +1121,8 @@ section {
 --------------------------------------------------------------*/
 .team {
   background: #fff;
-  padding: 60px 0;
+  background-image: url('../img/inclined-blue.png');
+  background-repeat: no-repeat;
 }
 
 
@@ -1137,11 +1142,12 @@ section {
 .team .member .social {
   position: absolute;
   left: 0;
-  bottom: 30px;
+  bottom: 0;
   right: 0;
   opacity: 0;
   transition: ease-in-out 0.3s;
   text-align: center;
+  
 }
 
 .team .member .social p {
@@ -1153,13 +1159,13 @@ section {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  
 }
-
-
 
 .team .member .social i {
   font-size: 18px;
   line-height: 0;
+  
 }
 
 .team .member .member-info {
@@ -1178,6 +1184,7 @@ section {
   font-size: 13px;
   font-weight: 400;
   color: #aaaaaa;
+  
 }
 
 
@@ -1188,12 +1195,17 @@ section {
 .team .member-img img {
   transition: transform 0.3s;
   filter: grayscale(var(--value, 100%)); --value: 100%;
+ 
+  
 }
 
 .team .member:hover .member-img img {
   transform: scale(1.1);
-  filter: none
+  filter: none;
+  
+  
 }
+
 
 /*--------------------------------------------------------------
 # Contact
