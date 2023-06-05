@@ -80,6 +80,38 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  background-color: #202958;
+}
+
+.clients .content {
+  padding: 30px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.clients .swiper-slide img {
+  opacity: 1;
+  transition: 0.3s;
+  filter: brightness(0) invert(1)
+}
+
+.clients .swiper-slide img:hover {
+  filter: none;
+  opacity: 1;
+}
+
+.clients .swiper-pagination {
+  position: relative;
+}
+
+
+/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
@@ -126,6 +158,8 @@ h6 {
     padding: 15px 0;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -501,13 +535,41 @@ section {
 
 .section-bg {
   background-color: #f4f9fc;
-  background-image: url('../img/inclined-blc.png');
+  background-image: url('../img/inclined-blc.png'), url('../img/1x/Asset\ 2.png');
+  background-position: top, bottom;
   background-repeat: no-repeat;
 }
 
 .section-title {
-  text-align: center;
   padding-bottom: 30px;
+}
+
+.section-title p {
+  padding: 30px;
+  background-color: #fff;
+}
+
+.section-title h2{
+  text-align: center;
+}
+.section-title-team {
+  padding-bottom: 30px;
+}
+
+
+.section-title-team h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 30px;
+  color: #fff;
+  z-index: 2;
+}
+
+.back {
+  background-color: white;
+  padding: 30px;
 }
 
 .section-title h2 {
@@ -591,6 +653,14 @@ section {
 .about {
   background-color: #FFFFFF;
   background-image: url('../img/inclined.png');
+  padding: 60px 0;
+  position: relative;
+}
+
+.conso {
+  background-color: #FFFFFF;
+  background-image: url('../img/1x/Asset\ 4.png');
+  background-repeat: no-repeat;
   padding: 60px 0;
   position: relative;
 }
@@ -752,16 +822,15 @@ section {
   color: #fdc134;
 }
 
-.services .card:hover img {
-  transform: scale(1.1);
-}
+
 
 .services .card:hover .card-body {
   border-color: #28305D;
+  transition: 0.1s ease-in-out;
 }
 
 .services .card:hover .card-body .card-title a {
-  color: #fdc134;
+  color: #202958;
 }
 
 /*--------------------------------------------------------------
@@ -819,7 +888,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(15, 20, 75, 0.8), rgba(15, 20, 75, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(15, 20, 75, 0.3), rgba(15, 20, 75, 0.6)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -842,7 +911,6 @@ section {
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 28px;
-  border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
   border: 2px solid rgba(255, 255, 255, 0.5);
@@ -851,6 +919,46 @@ section {
 
 .cta .cta-btn:hover {
   border-color: #fff;
+}
+
+.call {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
+
+.called {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #202958;
+  color: #202958;
+}
+
+.call:hover {
+  border-color: #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.called:hover {
+  background-color: #202958;
+  color: #fff;
+  cursor: pointer;
 }
 
 /*--------------------------------------------------------------
@@ -1120,11 +1228,12 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
-  background-image: url('../img/1x/Asset\ 2.png');
-  background-position: bottom;
+  background: #202958;
+  background-image: url('../img/1x/Asset\ 9.png');
+  background-position: bottom; 
   background-repeat: no-repeat;
 }
+
 
 
 .team .member {
@@ -1333,6 +1442,16 @@ section {
     transform: rotate(360deg);
   }
 }
+
+.carrey {
+  background-color: #fff;
+  padding: 30px 20px;
+}
+
+.shadow {
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+}
+
 
 /*--------------------------------------------------------------
 # Footer
