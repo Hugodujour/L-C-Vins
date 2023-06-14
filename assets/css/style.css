@@ -171,6 +171,7 @@ h6 {
 .navbar {
   padding: 0;
   position: static;
+  color: #fff;
 }
 
 .navbar ul {
@@ -205,13 +206,15 @@ h6 {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
+  color: #fff;
 }
 
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:focus>a {
   background: rgba(255, 255, 255, 0.2);
+  color: #fff;
 }
 
 .navbar .dropdown ul {
