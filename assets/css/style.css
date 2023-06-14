@@ -16,12 +16,13 @@ body {
 
 a {
   text-decoration: none;
-  color: #67b0d1;
+  color: #BE9237;
 }
 
 a:hover {
-  color: #8ec4dd;
+  color: #F8D28C;
   text-decoration: none;
+  cursor: pointer;
 }
 
 h1,
@@ -99,10 +100,7 @@ h6 {
   filter: brightness(0) invert(1)
 }
 
-.clients .swiper-slide img:hover {
-  filter: none;
-  opacity: 1;
-}
+
 
 .clients .swiper-pagination {
   position: relative;
@@ -353,7 +351,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(43, 111, 142, 0.9);
+  background: rgba(0, 0, 0, 0.5);
   transition: 0.3s;
 }
 
@@ -380,13 +378,13 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #2f4d5a;
+  color: #202958;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #67b0d1;
+  color: #F8D28C;
 }
 
 .navbar-mobile .getstarted,
@@ -439,6 +437,8 @@ h6 {
 .navbar-mobile .megamenu ul li .active:hover {
   color: #67b0d1;
 }
+
+
 
 /*--------------------------------------------------------------
 # Hero Section
