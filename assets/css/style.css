@@ -168,7 +168,7 @@ h6 {
 */
 .navbar {
   padding: 0;
-  position: static;
+  
   color: #fff;
 }
 
@@ -655,12 +655,30 @@ section {
   margin-bottom: 30px;
   background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(3px);
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 170px;
 }
 
 .boxy {
-  padding: 0px 30px;
-  
+  margin-bottom: 20px;
 }
+
+.icon i {
+  font-size: 32px;
+  padding: 10px;
+  color: #202958;
+}
+
+.boxy h4 {
+  color: #BE9237;
+  font-size: 19px;
+}
+
+
 
 
 

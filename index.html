@@ -43,39 +43,44 @@
     <div class="container d-flex align-items-center justify-content-between position-relative">
 
       <div class="logo">
-        
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/4x/bottle.png" alt="" class="img-fluid"></a> -->
         <a href="#hero"><img src="assets/img/4x/Texte.png" alt="" class="img-fluid logoted"></a>
       </div>
 
-      <nav id="navbar" class="navbar d-flex justify-content-between">
+      <nav id="navbar" class="navbar">
         <div>
+          <ul>
+            
+              <li><a class="nav-link scrollto" href="#about">Notre histoire</a></li>
+              <li><a class="nav-link scrollto" href="#services">Services</a></li>
+              <li><a class="nav-link scrollto" href="#team">L'Équipe</a></li>
+              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            
+          </ul>
+        </div>
+        
+        
+      </nav><!-- .navbar -->
+      
+      <nav class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="#about">Notre histoire</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#team">L'Équipe</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <ul>
-          <li><a class="nav-link scrollto" href="">FR</a></li>
-          <li><a class="nav-link scrollto" href="">ENG</a></li>
+          <li><a class="nav-link scrollto" href="#team">FR</a></li>
+          <li><a class="nav-link scrollto" href="#team">ENG</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </div>
-      </nav><!-- .navbar -->
+      </nav>
+      
 
     </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
-    <div class="hero-container" data-aos="fade-up">
+    <div class="hero-container" data-aos="fade-up" data-aos-delay="0">
       <ul>
-        <li data-aos="fade-in">
+        <li data-aos="fade-in" data-aos-delay="200">
           <img src="./assets/img/4x/logo-bloc.png" class="img-fluid col-sm-4" alt="Logotype L&C vins représentant des bouteilles de vins">
         </li>
-        <li data-aos="fade-up">
+        <li data-aos="fade-up" data-aos-delay="500">
           <a class="call" href="#contact">Nous contacter</a>
         </li>
       </ul>
@@ -90,7 +95,7 @@
       <div class="container" data-aos="fade-up">
         <div class="row gx-0">
 
-          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="zoom-in" data-aos-delay="200">
             <div class="content shadow">
               <h3>Notre histoire</h3>
               <h2>Défenseur des terroirs français à l'international.
@@ -113,7 +118,7 @@
             </div>
           </div>
 
-          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="800">
             <img src="assets/img/asso.jpg" class="img-fluid" alt="">
           </div>
 
@@ -136,9 +141,9 @@
         </div>
         </div>
 
-        <div>
-        <div class="d-flex flex-row justify-content-center align-items-center">
-          <div class="boxy" data-aos="zoom-in" data-aos-delay="100">
+        <div class="">
+        <div class="d-flex flex-row justify-content-around align-items-center" >
+          <div class="boxy d-none d-md-block" data-aos="zoom-in" >
             <div class="icon-box shadow bordered-top">
               <div class="icon"><i class="bx bx-world"></i></div>
               <h4>Export</h4>
@@ -146,7 +151,7 @@
             </div>
           </div>
 
-          <div class="boxy" data-aos="zoom-in" data-aos-delay="200">
+          <div class="boxy d-none d-md-block" data-aos="zoom-in" >
             <div class="icon-box  shadow bordered-top">
               <div class="icon"><i class="bx bx-restaurant"></i></div>
               <h4>Restauration française</h4>
@@ -154,7 +159,7 @@
             </div>
           </div>
 
-          <div class="boxy" data-aos="zoom-in" data-aos-delay="300">
+          <div class="boxy d-none d-md-block" data-aos="zoom-in" >
             <div class="icon-box shadow bordered-top">
               <div class="icon"><i class="bx bx-briefcase-alt-2"></i></div>
               <h4>Création de marques & accompagnement</h4>
@@ -162,7 +167,7 @@
             </div>
           </div>
 
-          <div class="boxy" data-aos="zoom-in" data-aos-delay="100">
+          <div class="boxy d-none d-md-block" data-aos="zoom-in" >
             <div class="icon-box shadow bordered-top">
               <div class="icon"><i class="bx bx-wine"></i></div>
               <h4>Sourcing</h4>
@@ -172,7 +177,7 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-6 col-md-12 d-flex" data-aos="fade-right">
+          <div class="col-lg-6 col-md-12 d-flex" data-aos="fade-right" data-aos-delay="300">
             <div class="card">
               <div class="card-img">
                 <img src="assets/img/tonneaux.jpg" alt="..." style="width: 700px; height: 350px;" class="img-fluid">
@@ -186,7 +191,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-12 d-flex" data-aos="fade-left">
+          <div class="col-lg-6 col-md-12 d-flex" data-aos="fade-left" data-aos-delay="300">
             <div class="card">
               <div class="card-img">
                 <img src="assets/img/conso.jpg" alt="..." style="width: 700px; height: 350px;" class="img-fluid">
@@ -206,7 +211,7 @@
             </div>
 
           </div>
-          <div class="col-lg-6 col-md-12 d-flex" data-aos="fade-right">
+          <div class="col-lg-6 col-md-12 d-flex" data-aos="fade-right" data-aos-delay="300">
             <div class="card">
               <div class="card-img">
                 <img src="assets/img/chateau.jpg" alt="..." style="width: 700px; height: 350px;" class="img-fluid" >
@@ -220,7 +225,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-12 d-flex" data-aos="fade-left">
+          <div class="col-lg-6 col-md-12 d-flex" data-aos="fade-left" data-aos-delay="300">
             <div class="card">
               <div class="card-img">
                 <img src="assets/img/vignes.jpg" alt="..." style="width: 700px; height: 350px;" class="img-fluid">
@@ -401,7 +406,7 @@
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact section-bg">
-      <div class="container" data-aos="fade-up">
+      <div class="container" >
 
         <div class="section-title">
           <h2>Une question ? Contactez-nous.</h2>
@@ -409,7 +414,7 @@
 
         <div class="row">
           <div class="col-lg-6">
-            <div class="info-box mb-4 bordered-top">
+            <div class="info-box mb-4 bordered-top" data-aos="fade-up" data-aos-delay="100">
               <i class="bx bx-map"></i>
               <h3>Notre adresse</h3>
               <a href="https://www.google.fr/maps/place/L%26C+Vins/@44.8450737,-0.6015919,17z/data=!3m1!4b1!4m6!3m5!1s0xd55279c83f59b21:0xb82dec850086493a!8m2!3d44.8450699!4d-0.599017!16s%2Fg%2F11gmfylbt9?entry=ttu" target="_blank">185 Bd du Président Wilson, 33200 Bordeaux</a>
@@ -417,7 +422,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6">
-            <div class="info-box mb-4 bordered-top">
+            <div class="info-box mb-4 bordered-top" data-aos="fade-up" data-aos-delay="300">
               <i class="bx bx-envelope"></i>
               <h3>Notre email</h3>
               <a href="mailto:contact@lcvins.com?subject=Contact%20via%20le%20site%20web%20L%26C%20Vins">contact@lcvins.com</a>
@@ -425,7 +430,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6">
-            <div class="info-box mb-4 bordered-top">
+            <div class="info-box mb-4 bordered-top" data-aos="fade-up" data-aos-delay="500">
               <i class="bx bx-phone-call"></i>
               <h3>Appelez-nous</h3>
               <a href="tel:+33661562382">+33 6 61 56 23 82</a>
@@ -436,13 +441,13 @@
 
         <div class="container mt-3">
           <div class="row">
-            <div class="col-lg-6 col-md-4 order-last p-2 ">
+            <div class="col-lg-6 col-md-4 order-last p-2 " data-aos="fade-up" data-aos-delay="900">
               <div class="map h-100 shadow ">
                 <iframe allowfullscreen width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=L%26C%20Vins%20185%20Bd%20du%20Président%20Wilson,%2033200%20Bordeaux%20Bordeaux+(L%26C%20Vins)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
   
               </div>
             </div>
-            <div class="col-lg-6 order-lg-first carrey shadow bordered-top">
+            <div class="col-lg-6 order-lg-first carrey shadow bordered-top" data-aos="fade-up" data-aos-delay="700">
               <form action="https://api.web3forms.com/submit" method="POST" id="form">
                 <div class="row">
                   <input type="hidden" name="access_key" value="3a86142e-3fb4-4acc-8a34-0ec4e6fece03" />
