@@ -649,6 +649,19 @@ section {
   }
 }
 
+.icon-box {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(3px);
+}
+
+.boxy {
+  padding: 0px 30px;
+  
+}
+
 
 
 /*--------------------------------------------------------------
