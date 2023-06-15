@@ -158,7 +158,14 @@ h6 {
   width: 10rem;
 }
 
+.navbar-mobile .dropdown>.dropdown-active {
+  overflow: hidden;
+}
 
+.fra {
+  text-decoration: underline solid 2px;
+  text-underline-offset: 4px;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
