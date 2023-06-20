@@ -444,6 +444,21 @@ h6 {
   color: #67b0d1;
 }
 
+.genialos {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.team .member .member-info p {
+  font-size: 13px;
+  font-weight: 550;
+  color: #BE9237;
+  padding: 0px;
+  margin-bottom: 4px;
+  
+}
+
 
 
 /*--------------------------------------------------------------
