@@ -165,9 +165,14 @@ h6 {
 .fra {
   text-decoration: underline solid 2px;
   text-underline-offset: 4px;
-  height: 28px; 
-  width: 65px;
 }
+
+.genialos {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -1327,6 +1332,18 @@ section {
   color: #aaaaaa;
   
 }
+
+.team .member .member-info p {
+  font-size: 13px;
+  font-weight: 550;
+  color: #BE9237;
+  padding: 0px;
+  margin-bottom: 4px;
+  
+}
+
+
+
 
 
 .team .member:hover .social {
