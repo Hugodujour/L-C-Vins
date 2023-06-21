@@ -203,8 +203,11 @@ h6 {
 }
 
 #hero img {
-  
   padding: 2rem;
+}
+
+#hero li {
+  list-style: none;
 }
 
 #hero a {
