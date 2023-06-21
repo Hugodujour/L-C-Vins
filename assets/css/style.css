@@ -96,6 +96,7 @@ h6 {
 
 .logoted {
   width: 10rem;
+  padding: 200px;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -203,6 +204,10 @@ h6 {
 #hero img {
   
   padding: 2rem;
+}
+
+#hero a {
+  width: 230px;
 }
 
 /*--------------------------------------------------------------
