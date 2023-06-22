@@ -801,6 +801,10 @@ section {
   padding-bottom: 40px;
 }
 
+.services p {
+  color: #202958;
+}
+
 .services .card {
   border: 0;
   padding: 0 30px;
